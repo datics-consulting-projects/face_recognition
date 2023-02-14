@@ -1,0 +1,7 @@
+RUN with CUDA
+install dlib from external source for windows
+install deepface from external resource
+download zlibwapi.dll and add to ENV variable
+
+RUN without CUDA
+Install dlib without CUDA support: python setup.py --no DLIB_USE_CUDA
